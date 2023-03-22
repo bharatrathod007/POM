@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+       <listener class-name="TestNGPograms.AnnotationTransfarmer"/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="TestNGPrograms.RetryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
